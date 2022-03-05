@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { Button } from 'utexas-components'
 import styles from '../styles/Home.module.css'
+import 'utexas-styles/css/forty_acres.css'
 
 export default function Home() {
   return (
@@ -13,10 +15,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to UT NextJS Kit!
         </h1>
 
         <p className={styles.description}>
+          <Button label="Check out more" classes="ut-btn" />
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
