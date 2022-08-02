@@ -38,14 +38,6 @@ export default function AppWrapper(props) {
 
   return (
     <>
-      {/*
-        This example requires updating your template:
-
-        ```
-        <html class="h-full">
-        <body class="h-full"><
-        ```
-      */}
       <AppContextProvider value={appState}>
         <DndProvider backend={HTML5Backend}>
           <div className="min-h-full">
